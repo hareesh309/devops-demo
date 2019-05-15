@@ -15,7 +15,7 @@ steps:
   - task: NodeTool@0
     inputs:
       versionSpec: '8.x'
-    displayName: 'NodeTool'
+    displayName: 'NodeTool version 8'
 
   - script: npm install
     displayName: 'Install dependencies'
