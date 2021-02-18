@@ -30,3 +30,7 @@ steps:
     displayName: 'npm build'
     env:
       NODE_OPTIONS: '--max_old_space_size=4096'
+
+- task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
